@@ -60,9 +60,4 @@ return require('packer').startup(function(use)
 
 	-- That multicursor
 	use 'mg979/vim-visual-multi'
-
-	-- Org mode
-	use { 'nvim-orgmode/orgmode', config = function()
-		require('orgmode').setup {}
-	end }
 end)
